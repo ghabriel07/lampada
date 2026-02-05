@@ -1,0 +1,76 @@
+body {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height:100px ;
+margin: 400px;
+background: url(giphy.webp);
+}
+
+.content {
+background:#4facfe;
+padding: 20px;
+border-radius: 12px;
+width: 100%;
+text-align: center;
+}
+
+h1 {
+    color:yellow;
+    margin-bottom: 20px;
+
+}
+
+label {
+    display: block;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background:red;
+    border-radius: 6px;
+    color: rgb(226, 226, 226);
+    
+
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 18px;
+}
+
+button:hover {
+    background: black;
+}
+
+textarea {
+    height: 90px;
+    resize: none;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
